@@ -1,0 +1,19 @@
+#commit -> serve para confirmar as mudanças no projeto. Se for usada localmente, as mudanças não vão para o repositório na nuvem 
+	
+	git commit -m "nova alteração" (esse menos -m seguido de um texto é para nomear essa nova att)
+
+#clone -> serve para clonar o repositório da nuvem
+
+	git clone <url>
+
+#status -> serve para verificar as mudanças no repositorio LOCAL.
+
+	git status
+	
+#pull -> serve para verficar se tem atualização NA NUVEM.
+
+	git pull <url>
+
+#push -> serve para atualizar o repositório da nuvem com o que tem na sua máquina
+
+
