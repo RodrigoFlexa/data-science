@@ -1,3 +1,7 @@
+#add -> para pegar todos as mudanças feitas para posteriormento jogar no commit
+
+	git add.
+
 #commit -> serve para confirmar as mudanças no projeto. Se for usada localmente, as mudanças não vão para o repositório na nuvem 
 	
 	git commit -m "nova alteração" (esse menos -m seguido de um texto é para nomear essa nova att)
@@ -15,5 +19,13 @@
 	git pull <url>
 
 #push -> serve para atualizar o repositório da nuvem com o que tem na sua máquina
+	
+	git push 
 
 
+caso então queira fazer alguma mudança do repositório na nuvem
+
+git status
+git add .
+git commit
+git push 
